@@ -1,0 +1,11 @@
+node ./orbs_status/status.js 
+./guardian.sh
+
+
+
+if [ $1 = 'full' ] 
+then
+./reward.sh
+fi
+
+
